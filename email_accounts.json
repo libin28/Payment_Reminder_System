@@ -1,0 +1,16 @@
+{
+    "smsdfinance@gmail.com": {
+        "id": "e243e4f3-cb97-4c95-8699-cec2d9de71e9",
+        "email": "smsdfinance@gmail.com",
+        "password": "YnJ5c2h1c3ppaWtwbW1rcQ==",
+        "display_name": "Medical Service Division",
+        "is_default": true,
+        "status": "active",
+        "added_by": "liblal2018@gmail.com",
+        "added_at": "2025-10-10T11:36:57.947802",
+        "last_used": "2025-10-10T14:06:51.050949",
+        "total_sent": 2,
+        "updated_at": "2025-10-10T14:04:56.880410",
+        "updated_by": "system_activation"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "testuser1@example.com": {
+        "id": "23b39403-07ed-4701-92dc-6820526d4120",
+        "email": "testuser1@example.com",
+        "password": "$2b$12$3E85Ouf/KEKqrRkxzWsjhOPkTV9XMvQ89rJ7nFDKb066Sj1.6.wii",
+        "status": "active",
+        "role": "user",
+        "created_at": "2025-10-08T15:34:44.652773",
+        "last_login": "2025-10-08T15:34:45.466140",
+        "login_attempts": 1,
+        "locked_until": null,
+        "updated_at": "2025-10-08T15:34:46.257388",
+        "updated_by": "admin@test.com"
+    },
+    "testuser2@example.com": {
+        "id": "29d58114-81a6-42ba-95c2-e5642b410a25",
+        "email": "testuser2@example.com",
+        "password": "$2b$12$8T87lLFt6WTt2WIVgngwEOthUg7.sl0vpLHE7gflN7oGYMAnt4AWi",
+        "status": "active",
+        "role": "user",
+        "created_at": "2025-10-08T15:34:45.042540",
+        "last_login": "2025-10-08T15:34:46.240030",
+        "login_attempts": 5,
+        "locked_until": "2025-10-08T16:04:48.266949"
+    },
+    "libhope4christ@gmail.com": {
+        "id": "5ac1b9ca-8b5c-4711-ba81-7f7a53833c48",
+        "email": "libhope4christ@gmail.com",
+        "password": "$2b$12$6Z8/dFvDB456P2GQPjCWi.Pn9.nv7vA8gtC.AjiNIfiFNj7JWGcUS",
+        "status": "active",
+        "role": "user",
+        "created_at": "2025-10-08T15:49:25.798135",
+        "last_login": "2025-10-08T15:50:34.298232",
+        "login_attempts": 0,
+        "locked_until": null
+    },
+    "smsdfinance@gmail.com": {
+        "id": "7810b431-fbf6-47fd-bdf2-25568a2a7aab",
+        "email": "smsdfinance@gmail.com",
+        "password": "$2b$12$xerWjHqfdPqazd6QJhaIO.yqwQbBTZZozk1nxukqxymEDRySlGWWC",
+        "status": "active",
+        "role": "user",
+        "created_at": "2025-10-10T11:08:16.879749",
+        "last_login": "2025-10-10T11:11:05.047000",
+        "login_attempts": 0,
+        "locked_until": null
+    }
+}

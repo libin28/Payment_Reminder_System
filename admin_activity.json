@@ -1,0 +1,903 @@
+[
+  {
+    "timestamp": "2025-10-07T13:36:59.411889",
+    "admin_email": "admin@reminder.com",
+    "action": "login_success",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-07T13:37:00.125616",
+    "admin_email": "admin@reminder.com",
+    "action": "login_failed",
+    "details": {
+      "reason": "wrong_password",
+      "attempts": 1
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-07T13:37:00.129310",
+    "admin_email": "test@example.com",
+    "action": "login_failed",
+    "details": {
+      "reason": "email_not_found"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-07T13:37:00.131233",
+    "admin_email": "test@example.com",
+    "action": "login_failed",
+    "details": {
+      "reason": "email_not_found"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-07T13:37:00.133785",
+    "admin_email": "test@example.com",
+    "action": "login_failed",
+    "details": {
+      "reason": "email_not_found"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-07T13:37:00.137187",
+    "admin_email": "test@example.com",
+    "action": "login_failed",
+    "details": {
+      "reason": "email_not_found"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-07T13:37:00.145653",
+    "admin_email": "test@example.com",
+    "action": "login_failed",
+    "details": {
+      "reason": "email_not_found"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-07T13:37:00.152539",
+    "admin_email": "test@example.com",
+    "action": "login_failed",
+    "details": {
+      "reason": "email_not_found"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-07T13:37:00.164336",
+    "admin_email": "test@system.com",
+    "action": "test_action",
+    "details": {
+      "test": "data"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-07T13:42:00.285845",
+    "admin_email": "liblal2018@gmail.com",
+    "action": "login_success",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-07T14:57:15.807405",
+    "admin_email": "liblal2018@gmail.com",
+    "action": "login_success",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-07T15:49:54.257759",
+    "admin_email": "liblal2018@gmail.com",
+    "action": "logout",
+    "details": {},
+    "ip_address": "localhost",
+    "session_id": "ba3132c9-c24e-41ff-91d1-3b919985ee3e"
+  },
+  {
+    "timestamp": "2025-10-07T15:50:07.714556",
+    "admin_email": "liblal2018@gmail.com",
+    "action": "login_success",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "localhost",
+    "session_id": null
+  },
+  {
+    "timestamp": "2025-10-07T15:54:00.074714",
+    "admin_email": "liblal2018@gmail.com",
+    "action": "logout",
+    "details": {},
+    "ip_address": "localhost",
+    "session_id": "1ad5e5a4-3d8c-40cf-9a08-dfd4181caeb8"
+  },
+  {
+    "timestamp": "2025-10-08T14:15:49.458903",
+    "admin_email": "liblal2018@gmail.com",
+    "action": "login_success",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-08T14:16:32.697152",
+    "admin_email": "liblal2018@gmail.com",
+    "action": "logout",
+    "details": {},
+    "ip_address": "localhost",
+    "session_id": "858136ba-c79f-4423-bb0c-758327588823"
+  },
+  {
+    "timestamp": "2025-10-08T14:17:19.602518",
+    "admin_email": "libhope4christ@gmail.com",
+    "action": "login_failed",
+    "details": {
+      "reason": "email_not_found"
+    },
+    "ip_address": "localhost",
+    "session_id": null
+  },
+  {
+    "timestamp": "2025-10-08T14:21:15.097516",
+    "admin_email": "liblal2018@gamil.com",
+    "action": "login_failed",
+    "details": {
+      "reason": "email_not_found"
+    },
+    "ip_address": "localhost",
+    "session_id": null
+  },
+  {
+    "timestamp": "2025-10-08T14:21:21.897133",
+    "admin_email": "liblal2018@gamil.com",
+    "action": "login_failed",
+    "details": {
+      "reason": "email_not_found"
+    },
+    "ip_address": "localhost",
+    "session_id": null
+  },
+  {
+    "timestamp": "2025-10-08T14:21:31.462966",
+    "admin_email": "liblal2018@gmail.com",
+    "action": "login_success",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "localhost",
+    "session_id": null
+  },
+  {
+    "timestamp": "2025-10-08T14:26:11.845454",
+    "admin_email": "liblal2018@gmail.com",
+    "action": "logout",
+    "details": {},
+    "ip_address": "localhost",
+    "session_id": "92537904-19d2-4e66-a8a1-a1ab2b6d97f3"
+  },
+  {
+    "timestamp": "2025-10-08T14:26:46.669248",
+    "admin_email": "liblal2018@gmail.com",
+    "action": "login_success",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "localhost",
+    "session_id": null
+  },
+  {
+    "timestamp": "2025-10-08T15:05:09.161255",
+    "admin_email": "liblal2018@gmail.com",
+    "action": "login_success",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-08T15:06:56.800336",
+    "admin_email": "admin@reminder.com",
+    "action": "login_failed",
+    "details": {
+      "reason": "wrong_password",
+      "attempts": 2
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-08T15:07:05.650487",
+    "admin_email": "admin@reminder.com",
+    "action": "login_success",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-08T15:17:05.679745",
+    "admin_email": "admin@reminder.com",
+    "action": "email_account_added",
+    "details": {
+      "email": "test@reminder.com",
+      "display_name": "Test Account"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-08T15:17:05.689938",
+    "admin_email": "admin@reminder.com",
+    "action": "email_account_updated",
+    "details": {
+      "email": "test@reminder.com",
+      "updates": [
+        "display_name",
+        "status"
+      ]
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-08T15:21:38.985481",
+    "admin_email": "admin@reminder.com",
+    "action": "login_success",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-08T15:34:44.654091",
+    "admin_email": "system",
+    "action": "user_registered",
+    "details": {
+      "email": "testuser1@example.com"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-08T15:34:45.043876",
+    "admin_email": "system",
+    "action": "user_registered",
+    "details": {
+      "email": "testuser2@example.com"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-08T15:34:45.467528",
+    "admin_email": "testuser1@example.com",
+    "action": "user_login_success",
+    "details": {
+      "timestamp": "2025-10-08T15:34:45.467071"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-08T15:34:45.857665",
+    "admin_email": "testuser1@example.com",
+    "action": "user_login_failed",
+    "details": {
+      "attempts": 1
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-08T15:34:46.242119",
+    "admin_email": "testuser2@example.com",
+    "action": "user_login_success",
+    "details": {
+      "timestamp": "2025-10-08T15:34:46.241510"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-08T15:34:46.251657",
+    "admin_email": "admin@test.com",
+    "action": "user_status_updated",
+    "details": {
+      "email": "testuser1@example.com",
+      "status": "inactive"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-08T15:34:46.258842",
+    "admin_email": "admin@test.com",
+    "action": "user_status_updated",
+    "details": {
+      "email": "testuser1@example.com",
+      "status": "active"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-08T15:34:46.688617",
+    "admin_email": "testuser2@example.com",
+    "action": "user_login_failed",
+    "details": {
+      "attempts": 1
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-08T15:34:47.079962",
+    "admin_email": "testuser2@example.com",
+    "action": "user_login_failed",
+    "details": {
+      "attempts": 2
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-08T15:34:47.497135",
+    "admin_email": "testuser2@example.com",
+    "action": "user_login_failed",
+    "details": {
+      "attempts": 3
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-08T15:34:47.881112",
+    "admin_email": "testuser2@example.com",
+    "action": "user_login_failed",
+    "details": {
+      "attempts": 4
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-08T15:34:48.268454",
+    "admin_email": "testuser2@example.com",
+    "action": "user_account_locked",
+    "details": {
+      "attempts": 5
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-08T15:49:25.800460",
+    "admin_email": "system",
+    "action": "user_registered",
+    "details": {
+      "email": "libhope4christ@gmail.com"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-08T15:50:34.300108",
+    "admin_email": "libhope4christ@gmail.com",
+    "action": "user_login_success",
+    "details": {
+      "timestamp": "2025-10-08T15:50:34.299491"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-08T15:50:48.949430",
+    "admin_email": "libhope4christ@gmail.com",
+    "action": "user_logout",
+    "details": {},
+    "ip_address": "localhost",
+    "session_id": "98f1c7e3-b611-4aa1-96e0-f89065485db7"
+  },
+  {
+    "timestamp": "2025-10-08T15:51:03.448504",
+    "admin_email": "liblal2018@gmail.com",
+    "action": "login_success",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-08T15:52:58.103280",
+    "admin_email": "liblal2018@gmail.com",
+    "action": "logout",
+    "details": {},
+    "ip_address": "localhost",
+    "session_id": "a1027117-5136-4a4a-87c4-39b7a28d5564"
+  },
+  {
+    "timestamp": "2025-10-09T12:33:41.907955",
+    "admin_email": "liblal2018@gmail.com",
+    "action": "login_success",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-09T13:13:22.463892",
+    "admin_email": "liblal2018@gmail.com",
+    "action": "login_success",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-09T13:40:44.618026",
+    "admin_email": "liblal2018@gmail.com",
+    "action": "login_success",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-09T15:23:10.312124",
+    "admin_email": "liblal2018@gmail.com",
+    "action": "login_success",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-09T17:01:54.521929",
+    "admin_email": "liblal2018@gmail.com",
+    "action": "login_success",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-09T17:25:14.652529",
+    "admin_email": "liblal2018@gmail.com",
+    "action": "login_success",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-09T17:29:52.010089",
+    "admin_email": "liblal2018@gmail.com",
+    "action": "email_account_updated",
+    "details": {
+      "email": "liblal2018@gmail.com",
+      "updates": [
+        "display_name",
+        "is_default",
+        "status",
+        "password"
+      ]
+    },
+    "ip_address": "localhost",
+    "session_id": "bbcffbf0-2d4a-413f-bece-2a5ec9f6f312"
+  },
+  {
+    "timestamp": "2025-10-10T10:10:40.329911",
+    "admin_email": "liblal2018@gmail.com",
+    "action": "login_success",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-10T11:04:14.471111",
+    "admin_email": "liblal2018@gmail.com",
+    "action": "logout",
+    "details": {},
+    "ip_address": "localhost",
+    "session_id": "6f21ca32-775f-4321-925f-9a666a72ec40"
+  },
+  {
+    "timestamp": "2025-10-10T11:08:17.206415",
+    "admin_email": "system",
+    "action": "user_registered",
+    "details": {
+      "email": "smsdfinance@gmail.com"
+    },
+    "ip_address": "localhost",
+    "session_id": null
+  },
+  {
+    "timestamp": "2025-10-10T11:08:50.843849",
+    "admin_email": "smsdfinance@gmail.com",
+    "action": "login_failed",
+    "details": {
+      "reason": "email_not_found"
+    },
+    "ip_address": "localhost",
+    "session_id": null
+  },
+  {
+    "timestamp": "2025-10-10T11:09:02.107642",
+    "admin_email": "smsdfinance@gmail.com",
+    "action": "login_failed",
+    "details": {
+      "reason": "email_not_found"
+    },
+    "ip_address": "localhost",
+    "session_id": null
+  },
+  {
+    "timestamp": "2025-10-10T11:09:43.719874",
+    "admin_email": "smsdfinance@gmail.com",
+    "action": "login_failed",
+    "details": {
+      "reason": "email_not_found"
+    },
+    "ip_address": "localhost",
+    "session_id": null
+  },
+  {
+    "timestamp": "2025-10-10T11:10:21.941413",
+    "admin_email": "smsdfinance@gmail.com",
+    "action": "login_failed",
+    "details": {
+      "reason": "email_not_found"
+    },
+    "ip_address": "localhost",
+    "session_id": null
+  },
+  {
+    "timestamp": "2025-10-10T11:10:26.076608",
+    "admin_email": "smsdfinance@gmail.com",
+    "action": "login_failed",
+    "details": {
+      "reason": "email_not_found"
+    },
+    "ip_address": "localhost",
+    "session_id": null
+  },
+  {
+    "timestamp": "2025-10-10T11:11:05.050587",
+    "admin_email": "smsdfinance@gmail.com",
+    "action": "user_login_success",
+    "details": {
+      "timestamp": "2025-10-10T11:11:05.049671"
+    },
+    "ip_address": "localhost",
+    "session_id": null
+  },
+  {
+    "timestamp": "2025-10-10T11:11:48.090554",
+    "admin_email": "smsdfinance@gmail.com",
+    "action": "user_logout",
+    "details": {},
+    "ip_address": "localhost",
+    "session_id": "2f05a0c5-0bdf-4daf-b6e6-ed7d43e8bf90"
+  },
+  {
+    "timestamp": "2025-10-10T11:12:00.990452",
+    "admin_email": "liblal2018@gmail.com",
+    "action": "login_success",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-10T11:14:27.700664",
+    "admin_email": "liblal2018@gmail.com",
+    "action": "admin_created",
+    "details": {
+      "new_admin": "santhigirifmc@gmail.com",
+      "role": "admin"
+    },
+    "ip_address": "localhost",
+    "session_id": "c784ef87-3315-4bb4-9cc6-15904ee29c1f"
+  },
+  {
+    "timestamp": "2025-10-10T11:16:27.681408",
+    "admin_email": "liblal2018@gmail.com",
+    "action": "logout",
+    "details": {},
+    "ip_address": "localhost",
+    "session_id": "c784ef87-3315-4bb4-9cc6-15904ee29c1f"
+  },
+  {
+    "timestamp": "2025-10-10T11:16:48.415757",
+    "admin_email": "santhigirfmc@gmail.com",
+    "action": "login_failed",
+    "details": {
+      "reason": "email_not_found"
+    },
+    "ip_address": "localhost",
+    "session_id": null
+  },
+  {
+    "timestamp": "2025-10-10T11:17:05.920486",
+    "admin_email": "santhigirifmc@gmail.com",
+    "action": "login_success",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "localhost",
+    "session_id": null
+  },
+  {
+    "timestamp": "2025-10-10T11:17:30.090363",
+    "admin_email": "santhigirifmc@gmail.com",
+    "action": "logout",
+    "details": {},
+    "ip_address": "localhost",
+    "session_id": "fbee93ea-8eab-4da0-a054-e38254f7a6b8"
+  },
+  {
+    "timestamp": "2025-10-10T11:17:43.448382",
+    "admin_email": "liblal2018@gmail.com",
+    "action": "login_success",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "localhost",
+    "session_id": null
+  },
+  {
+    "timestamp": "2025-10-10T11:19:47.493145",
+    "admin_email": "liblal2018@gmail.com",
+    "action": "logout",
+    "details": {},
+    "ip_address": "localhost",
+    "session_id": "0e60cfad-c934-432a-b4cc-1cb632a192d8"
+  },
+  {
+    "timestamp": "2025-10-10T11:20:13.836430",
+    "admin_email": "admin@reminder.com",
+    "action": "login_success",
+    "details": {
+      "role": "primary_admin"
+    },
+    "ip_address": "localhost",
+    "session_id": null
+  },
+  {
+    "timestamp": "2025-10-10T11:30:39.002185",
+    "admin_email": "admin@reminder.com",
+    "action": "logout",
+    "details": {},
+    "ip_address": "localhost",
+    "session_id": "37f2dd65-66bf-4027-96ab-c375d18fb130"
+  },
+  {
+    "timestamp": "2025-10-10T11:31:49.472743",
+    "admin_email": "liblal2018@gmail.com",
+    "action": "login_success",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "localhost",
+    "session_id": null
+  },
+  {
+    "timestamp": "2025-10-10T11:36:57.952196",
+    "admin_email": "liblal2018@gmail.com",
+    "action": "email_account_added",
+    "details": {
+      "email": "smsdfinance@gmail.com",
+      "display_name": "Medical Service Division"
+    },
+    "ip_address": "localhost",
+    "session_id": "be75dc3b-6258-43d9-a97c-25337d2849f2"
+  },
+  {
+    "timestamp": "2025-10-10T11:45:24.941044",
+    "admin_email": "liblal2018@gmail.com",
+    "action": "email_account_deleted",
+    "details": {
+      "email": "liblal2018@gmail.com"
+    },
+    "ip_address": "localhost",
+    "session_id": "be75dc3b-6258-43d9-a97c-25337d2849f2"
+  },
+  {
+    "timestamp": "2025-10-10T11:49:39.986126",
+    "admin_email": "liblal2018@gmail.com",
+    "action": "logout",
+    "details": {},
+    "ip_address": "localhost",
+    "session_id": "be75dc3b-6258-43d9-a97c-25337d2849f2"
+  },
+  {
+    "timestamp": "2025-10-10T11:50:10.255228",
+    "admin_email": "admin@reminder.com",
+    "action": "login_success",
+    "details": {
+      "role": "primary_admin"
+    },
+    "ip_address": "localhost",
+    "session_id": null
+  },
+  {
+    "timestamp": "2025-10-10T11:50:21.638018",
+    "admin_email": "admin@reminder.com",
+    "action": "admin_deleted",
+    "details": {
+      "deleted_admin": "liblal2018@gmail.com"
+    },
+    "ip_address": "localhost",
+    "session_id": "c67c0e28-4b74-41c8-a69a-ee4e3a59edc5"
+  },
+  {
+    "timestamp": "2025-10-10T11:50:35.730973",
+    "admin_email": "admin@reminder.com",
+    "action": "logout",
+    "details": {},
+    "ip_address": "localhost",
+    "session_id": "c67c0e28-4b74-41c8-a69a-ee4e3a59edc5"
+  },
+  {
+    "timestamp": "2025-10-10T11:50:56.761059",
+    "admin_email": "santhigirifmc@gmail.com",
+    "action": "login_success",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "localhost",
+    "session_id": null
+  },
+  {
+    "timestamp": "2025-10-10T12:01:03.246706",
+    "admin_email": "santhigirifmc@gmail.com",
+    "action": "logout",
+    "details": {},
+    "ip_address": "localhost",
+    "session_id": "9738ad1a-fb15-41bf-b1a5-8f963d2e4120"
+  },
+  {
+    "timestamp": "2025-10-10T12:02:29.525961",
+    "admin_email": "santhigirfmc@gmail.com",
+    "action": "login_failed",
+    "details": {
+      "reason": "email_not_found"
+    },
+    "ip_address": "localhost",
+    "session_id": null
+  },
+  {
+    "timestamp": "2025-10-10T12:05:13.339605",
+    "admin_email": "santhigirifmc@gmail.com",
+    "action": "login_success",
+    "details": {
+      "role": "admin"
+    },
+    "ip_address": "localhost",
+    "session_id": null
+  },
+  {
+    "timestamp": "2025-10-10T12:05:29.478061",
+    "admin_email": "santhigirifmc@gmail.com",
+    "action": "logout",
+    "details": {},
+    "ip_address": "localhost",
+    "session_id": "54069940-a481-4a9e-b90a-80acb7f39878"
+  },
+  {
+    "timestamp": "2025-10-10T12:06:07.716426",
+    "admin_email": "admin@reminder.com",
+    "action": "login_success",
+    "details": {
+      "role": "primary_admin"
+    },
+    "ip_address": "localhost",
+    "session_id": null
+  },
+  {
+    "timestamp": "2025-10-10T12:43:06.567887",
+    "admin_email": "santhigirifmc@gmail.com",
+    "action": "login_success",
+    "details": {
+      "role": "primary_admin"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-10T12:48:06.174170",
+    "admin_email": "santhigirifmc@gmail.com",
+    "action": "email_account_updated",
+    "details": {
+      "email": "smsdfinance@gmail.com",
+      "updates": [
+        "display_name",
+        "is_default",
+        "status"
+      ]
+    },
+    "ip_address": "localhost",
+    "session_id": "b3eb3a2f-b61e-4098-929b-863a2109664c"
+  },
+  {
+    "timestamp": "2025-10-10T13:42:45.411859",
+    "admin_email": "santhigirifmc@gmail.com",
+    "action": "login_failed",
+    "details": {
+      "reason": "wrong_password",
+      "attempts": 1
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-10T13:43:35.277907",
+    "admin_email": "santhigirifmc@gmail.com",
+    "action": "login_success",
+    "details": {
+      "role": "primary_admin"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-10T13:59:11.770200",
+    "admin_email": "santhigirifmc@gmail.com",
+    "action": "login_success",
+    "details": {
+      "role": "primary_admin"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-10T14:06:29.620231",
+    "admin_email": "santhigirifmc@gmail.com",
+    "action": "login_success",
+    "details": {
+      "role": "primary_admin"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  }
+]

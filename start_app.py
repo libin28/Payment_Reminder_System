@@ -18,7 +18,7 @@ def install_requirements():
 def create_sample_data():
     """Create sample data if Excel file doesn't exist"""
     if not os.path.exists("payment_reminders.xlsx"):
-        print("📊 Creating sample data...")
+        print("Creating sample data...")
         try:
             subprocess.check_call([sys.executable, "create_sample_data.py"])
             print("✅ Sample data created!")
@@ -46,7 +46,7 @@ def start_streamlit():
         print("\n👋 Shutting down...")
 
 def main():
-    print("💰 Payment Reminder System Startup")
+    print("💰 Payment Reminder System")
     print("=" * 40)
     
     # Install requirements
