@@ -372,3 +372,11 @@ KeyError: 'Agreement Name'
 2025-10-10 12:45:02,613 - scheduler_manager - ERROR - Failed to send reminder a086b30b-08be-42d2-9291-fb07109468be to libhope4christ@gmail.com
 2025-10-10 12:45:02,613 - apscheduler.executors.default - INFO - Job "Email reminder for a086b30b-08be-42d2-9291-fb07109468be (trigger: date[2025-10-10 12:45:00 IST], next run at: 2025-10-10 12:45:00 IST)" executed successfully
 2025-10-10 12:45:02,614 - scheduler_manager - INFO - Job reminder_a086b30b-08be-42d2-9291-fb07109468be executed successfully at 2025-10-10 12:45:02.614187
+2025-10-10 13:42:23,511 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-10 13:42:23,512 - scheduler_manager - INFO - EmailScheduler initialized and started
+2025-10-10 13:43:36,363 - scheduler_manager - INFO - Rescheduling all active reminders...
+2025-10-10 13:43:36,968 - scheduler_manager - INFO - Rescheduled 0 active reminders
+2025-10-10 13:59:12,834 - scheduler_manager - INFO - Rescheduling all active reminders...
+2025-10-10 13:59:12,862 - scheduler_manager - INFO - Rescheduled 0 active reminders
+2025-10-10 14:06:30,683 - scheduler_manager - INFO - Rescheduling all active reminders...
+2025-10-10 14:06:30,714 - scheduler_manager - INFO - Rescheduled 0 active reminders
