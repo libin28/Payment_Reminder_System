@@ -899,5 +899,56 @@
     },
     "ip_address": "localhost",
     "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-10T17:28:09.866048",
+    "admin_email": "santhigirifmc@gmail.com",
+    "action": "login_failed",
+    "details": {
+      "reason": "wrong_password",
+      "attempts": 1
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-10T17:28:14.577019",
+    "admin_email": "santhigirifmc@gmail.com",
+    "action": "login_success",
+    "details": {
+      "role": "primary_admin"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-10T17:52:36.857519",
+    "admin_email": "santhigirifmc@gmail.com",
+    "action": "login_success",
+    "details": {
+      "role": "primary_admin"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-11T09:40:49.760249",
+    "admin_email": "santhigirifmc@gmail.com",
+    "action": "login_success",
+    "details": {
+      "role": "primary_admin"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-11T11:28:10.934653",
+    "admin_email": "santhigirifmc@gmail.com",
+    "action": "login_success",
+    "details": {
+      "role": "primary_admin"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
   }
 ]

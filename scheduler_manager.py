@@ -134,7 +134,7 @@ class EmailScheduler:
             return False
     
     def send_email(self, recipient, subject, body, sender_email, app_password):
-        """Send email reminder"""
+        """Enhanced email sending with multiple SMTP configurations for better external email support"""
         try:
             logger.info(f"Attempting to send email to {recipient} from {sender_email}")
 
@@ -143,28 +143,60 @@ class EmailScheduler:
             msg['From'] = sender_email
             msg['To'] = recipient
 
-            context = ssl.create_default_context()
-            with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
-                server.login(sender_email, app_password)
-                server.sendmail(sender_email, recipient, msg.as_string())
+            # Try multiple SMTP configurations for better compatibility
+            smtp_configs = [
+                {'host': 'smtp.gmail.com', 'port': 587, 'use_tls': True},  # TLS - better for external emails
+                {'host': 'smtp.gmail.com', 'port': 465, 'use_ssl': True}   # SSL - fallback
+            ]
 
-            logger.info(f"Email sent successfully to {recipient}")
+            for config in smtp_configs:
+                try:
+                    logger.debug(f"Trying SMTP {config['host']}:{config['port']} ({'TLS' if config.get('use_tls') else 'SSL'})")
 
-            # Update email usage statistics if using admin management
-            try:
-                import sys
-                sys.path.append('.')
-                from auth import load_email_accounts, save_email_accounts
-                accounts = load_email_accounts()
-                if sender_email in accounts:
-                    accounts[sender_email]["total_sent"] = accounts[sender_email].get("total_sent", 0) + 1
-                    accounts[sender_email]["last_used"] = datetime.now().isoformat()
-                    save_email_accounts(accounts)
-                    logger.info(f"Updated email statistics for {sender_email}")
-            except Exception as stats_error:
-                logger.warning(f"Could not update email statistics: {stats_error}")
+                    if config.get('use_ssl'):
+                        # SSL connection
+                        context = ssl.create_default_context()
+                        server = smtplib.SMTP_SSL(config['host'], config['port'], context=context)
+                    else:
+                        # TLS connection
+                        server = smtplib.SMTP(config['host'], config['port'])
+                        if config.get('use_tls'):
+                            server.starttls()
 
-            return True
+                    # Login and send
+                    server.login(sender_email, app_password)
+                    server.sendmail(sender_email, recipient, msg.as_string())
+                    server.quit()
+
+                    logger.info(f"Email sent successfully to {recipient} via {config['host']}:{config['port']}")
+
+                    # Update email usage statistics if using admin management
+                    try:
+                        import sys
+                        sys.path.append('.')
+                        from auth import load_email_accounts, save_email_accounts
+                        accounts = load_email_accounts()
+                        if sender_email in accounts:
+                            accounts[sender_email]["total_sent"] = accounts[sender_email].get("total_sent", 0) + 1
+                            accounts[sender_email]["last_used"] = datetime.now().isoformat()
+                            save_email_accounts(accounts)
+                            logger.info(f"Updated email statistics for {sender_email}")
+                    except Exception as stats_error:
+                        logger.warning(f"Could not update email statistics: {stats_error}")
+
+                    return True
+
+                except Exception as e:
+                    logger.warning(f"Failed to send via {config['host']}:{config['port']}: {e}")
+                    try:
+                        server.quit()
+                    except:
+                        pass
+                    continue
+
+            logger.error(f"All SMTP configurations failed for {recipient}")
+            return False
+
         except Exception as e:
             logger.error(f"Error sending email to {recipient}: {e}")
             return False

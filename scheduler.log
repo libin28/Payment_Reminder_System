@@ -380,3 +380,232 @@ KeyError: 'Agreement Name'
 2025-10-10 13:59:12,862 - scheduler_manager - INFO - Rescheduled 0 active reminders
 2025-10-10 14:06:30,683 - scheduler_manager - INFO - Rescheduling all active reminders...
 2025-10-10 14:06:30,714 - scheduler_manager - INFO - Rescheduled 0 active reminders
+2025-10-10 17:23:06,401 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-10 17:23:06,405 - scheduler_manager - INFO - EmailScheduler initialized and started
+2025-10-10 17:25:14,703 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-10 17:25:14,706 - scheduler_manager - INFO - EmailScheduler initialized and started
+2025-10-10 17:25:14,749 - apscheduler.scheduler - INFO - Added job "Email reminder for ff04e455-a028-429a-bb52-01936aa6178a" to job store "default"
+2025-10-10 17:25:14,749 - scheduler_manager - INFO - Scheduled reminder ff04e455-a028-429a-bb52-01936aa6178a for 2025-10-11 17:35:00 (Job ID: reminder_ff04e455-a028-429a-bb52-01936aa6178a)
+2025-10-10 17:25:14,751 - apscheduler.scheduler - INFO - Added job "Email reminder for 6022b079-2729-424f-82a5-cf4df85c418d" to job store "default"
+2025-10-10 17:25:14,751 - scheduler_manager - INFO - Scheduled reminder 6022b079-2729-424f-82a5-cf4df85c418d for 2025-10-11 17:37:00 (Job ID: reminder_6022b079-2729-424f-82a5-cf4df85c418d)
+2025-10-10 17:25:14,755 - apscheduler.scheduler - INFO - Added job "Email reminder for 5247c8bb-a800-4c82-aac9-48c4dbc57ba3" to job store "default"
+2025-10-10 17:25:14,757 - scheduler_manager - INFO - Scheduled reminder 5247c8bb-a800-4c82-aac9-48c4dbc57ba3 for 2025-10-11 17:39:00 (Job ID: reminder_5247c8bb-a800-4c82-aac9-48c4dbc57ba3)
+2025-10-10 17:25:14,759 - apscheduler.scheduler - INFO - Added job "Email reminder for 8546aad3-163a-4b8b-902a-a6d70000c7c2" to job store "default"
+2025-10-10 17:25:14,759 - scheduler_manager - INFO - Scheduled reminder 8546aad3-163a-4b8b-902a-a6d70000c7c2 for 2025-10-11 17:41:00 (Job ID: reminder_8546aad3-163a-4b8b-902a-a6d70000c7c2)
+2025-10-10 17:25:14,761 - apscheduler.scheduler - INFO - Added job "Email reminder for 991eb5a1-3e45-407c-92f4-1c02f4fca252" to job store "default"
+2025-10-10 17:25:14,762 - scheduler_manager - INFO - Scheduled reminder 991eb5a1-3e45-407c-92f4-1c02f4fca252 for 2025-10-11 17:43:00 (Job ID: reminder_991eb5a1-3e45-407c-92f4-1c02f4fca252)
+2025-10-10 17:25:14,765 - apscheduler.scheduler - INFO - Added job "Email reminder for a086b30b-08be-42d2-9291-fb07109468be" to job store "default"
+2025-10-10 17:25:14,765 - scheduler_manager - INFO - Scheduled reminder a086b30b-08be-42d2-9291-fb07109468be for 2025-10-11 17:45:00 (Job ID: reminder_a086b30b-08be-42d2-9291-fb07109468be)
+2025-10-10 17:25:14,774 - apscheduler.scheduler - INFO - Added job "Email reminder for 2a743115-2c5f-419e-98ca-6e9bb5acafbe" to job store "default"
+2025-10-10 17:25:14,775 - scheduler_manager - INFO - Scheduled reminder 2a743115-2c5f-419e-98ca-6e9bb5acafbe for 2025-10-10 17:28:00 (Job ID: reminder_2a743115-2c5f-419e-98ca-6e9bb5acafbe)
+2025-10-10 17:25:14,778 - apscheduler.scheduler - INFO - Added job "Email reminder for bb32af0a-3e1a-411d-8a83-7f2aa73d194e" to job store "default"
+2025-10-10 17:25:14,778 - scheduler_manager - INFO - Scheduled reminder bb32af0a-3e1a-411d-8a83-7f2aa73d194e for 2025-10-10 17:30:00 (Job ID: reminder_bb32af0a-3e1a-411d-8a83-7f2aa73d194e)
+2025-10-10 17:25:14,819 - scheduler_manager - INFO - Executing scheduled reminder: 2a743115-2c5f-419e-98ca-6e9bb5acafbe
+2025-10-10 17:25:16,409 - scheduler_manager - INFO - Loaded email config from admin management: smsdfinance@gmail.com
+2025-10-10 17:25:16,423 - scheduler_manager - INFO - Attempting to send email to smsdfinance@gmail.com from smsdfinance@gmail.com
+2025-10-10 17:25:16,424 - scheduler_manager - INFO - Attempting to send email to smsdfinance@gmail.com from smsdfinance@gmail.com
+2025-10-10 17:25:19,955 - scheduler_manager - INFO - Email sent successfully to smsdfinance@gmail.com
+2025-10-10 17:25:19,979 - scheduler_manager - INFO - Updated email statistics for smsdfinance@gmail.com
+2025-10-10 17:25:20,061 - scheduler_manager - INFO - Reminder 2a743115-2c5f-419e-98ca-6e9bb5acafbe sent successfully to smsdfinance@gmail.com
+2025-10-10 17:26:13,218 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-10 17:26:13,219 - scheduler_manager - INFO - EmailScheduler initialized and started
+2025-10-10 17:26:13,232 - apscheduler.scheduler - INFO - Added job "Email reminder for 8135709d-914c-41f9-978a-d24a9b6809f6" to job store "default"
+2025-10-10 17:26:13,233 - scheduler_manager - INFO - Scheduled reminder 8135709d-914c-41f9-978a-d24a9b6809f6 for 2025-10-10 17:29:00 (Job ID: reminder_8135709d-914c-41f9-978a-d24a9b6809f6)
+2025-10-10 17:26:13,235 - scheduler_manager - INFO - Executing scheduled reminder: 8135709d-914c-41f9-978a-d24a9b6809f6
+2025-10-10 17:26:14,116 - scheduler_manager - INFO - Loaded email config from admin management: smsdfinance@gmail.com
+2025-10-10 17:26:14,496 - scheduler_manager - ERROR - Reminder 8135709d-914c-41f9-978a-d24a9b6809f6 not found
+2025-10-10 17:27:06,674 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-10 17:27:06,678 - scheduler_manager - INFO - EmailScheduler initialized and started
+2025-10-10 17:27:06,678 - scheduler_manager - INFO - Rescheduling all active reminders...
+2025-10-10 17:27:06,706 - apscheduler.scheduler - INFO - Added job "Email reminder for ff04e455-a028-429a-bb52-01936aa6178a" to job store "default"
+2025-10-10 17:27:06,706 - scheduler_manager - INFO - Scheduled reminder ff04e455-a028-429a-bb52-01936aa6178a for 2025-10-11 17:35:00 (Job ID: reminder_ff04e455-a028-429a-bb52-01936aa6178a)
+2025-10-10 17:27:06,708 - apscheduler.scheduler - INFO - Added job "Email reminder for 6022b079-2729-424f-82a5-cf4df85c418d" to job store "default"
+2025-10-10 17:27:06,712 - scheduler_manager - INFO - Scheduled reminder 6022b079-2729-424f-82a5-cf4df85c418d for 2025-10-11 17:37:00 (Job ID: reminder_6022b079-2729-424f-82a5-cf4df85c418d)
+2025-10-10 17:27:06,713 - apscheduler.scheduler - INFO - Added job "Email reminder for 5247c8bb-a800-4c82-aac9-48c4dbc57ba3" to job store "default"
+2025-10-10 17:27:06,714 - scheduler_manager - INFO - Scheduled reminder 5247c8bb-a800-4c82-aac9-48c4dbc57ba3 for 2025-10-11 17:39:00 (Job ID: reminder_5247c8bb-a800-4c82-aac9-48c4dbc57ba3)
+2025-10-10 17:27:06,716 - apscheduler.scheduler - INFO - Added job "Email reminder for 8546aad3-163a-4b8b-902a-a6d70000c7c2" to job store "default"
+2025-10-10 17:27:06,716 - scheduler_manager - INFO - Scheduled reminder 8546aad3-163a-4b8b-902a-a6d70000c7c2 for 2025-10-11 17:41:00 (Job ID: reminder_8546aad3-163a-4b8b-902a-a6d70000c7c2)
+2025-10-10 17:27:06,719 - apscheduler.scheduler - INFO - Added job "Email reminder for 991eb5a1-3e45-407c-92f4-1c02f4fca252" to job store "default"
+2025-10-10 17:27:06,719 - scheduler_manager - INFO - Scheduled reminder 991eb5a1-3e45-407c-92f4-1c02f4fca252 for 2025-10-11 17:43:00 (Job ID: reminder_991eb5a1-3e45-407c-92f4-1c02f4fca252)
+2025-10-10 17:27:06,721 - apscheduler.scheduler - INFO - Added job "Email reminder for a086b30b-08be-42d2-9291-fb07109468be" to job store "default"
+2025-10-10 17:27:06,721 - scheduler_manager - INFO - Scheduled reminder a086b30b-08be-42d2-9291-fb07109468be for 2025-10-11 17:45:00 (Job ID: reminder_a086b30b-08be-42d2-9291-fb07109468be)
+2025-10-10 17:27:06,725 - apscheduler.scheduler - INFO - Added job "Email reminder for 2a743115-2c5f-419e-98ca-6e9bb5acafbe" to job store "default"
+2025-10-10 17:27:06,728 - scheduler_manager - INFO - Scheduled reminder 2a743115-2c5f-419e-98ca-6e9bb5acafbe for 2025-10-10 17:28:00 (Job ID: reminder_2a743115-2c5f-419e-98ca-6e9bb5acafbe)
+2025-10-10 17:27:06,731 - apscheduler.scheduler - INFO - Added job "Email reminder for bb32af0a-3e1a-411d-8a83-7f2aa73d194e" to job store "default"
+2025-10-10 17:27:06,731 - scheduler_manager - INFO - Scheduled reminder bb32af0a-3e1a-411d-8a83-7f2aa73d194e for 2025-10-10 17:30:00 (Job ID: reminder_bb32af0a-3e1a-411d-8a83-7f2aa73d194e)
+2025-10-10 17:27:06,733 - apscheduler.scheduler - INFO - Added job "Email reminder for 6f680bfb-9d7a-4e00-9d8e-f3bed01085d7" to job store "default"
+2025-10-10 17:27:06,738 - scheduler_manager - INFO - Scheduled reminder 6f680bfb-9d7a-4e00-9d8e-f3bed01085d7 for 2025-10-10 17:32:00 (Job ID: reminder_6f680bfb-9d7a-4e00-9d8e-f3bed01085d7)
+2025-10-10 17:27:06,739 - scheduler_manager - INFO - Rescheduled 9 active reminders
+2025-10-10 17:28:15,643 - scheduler_manager - INFO - Rescheduling all active reminders...
+2025-10-10 17:28:15,668 - apscheduler.scheduler - INFO - Added job "Email reminder for ff04e455-a028-429a-bb52-01936aa6178a" to job store "default"
+2025-10-10 17:28:15,669 - scheduler_manager - INFO - Scheduled reminder ff04e455-a028-429a-bb52-01936aa6178a for 2025-10-11 17:35:00 (Job ID: reminder_ff04e455-a028-429a-bb52-01936aa6178a)
+2025-10-10 17:28:15,671 - apscheduler.scheduler - INFO - Added job "Email reminder for 6022b079-2729-424f-82a5-cf4df85c418d" to job store "default"
+2025-10-10 17:28:15,672 - scheduler_manager - INFO - Scheduled reminder 6022b079-2729-424f-82a5-cf4df85c418d for 2025-10-11 17:37:00 (Job ID: reminder_6022b079-2729-424f-82a5-cf4df85c418d)
+2025-10-10 17:28:15,674 - apscheduler.scheduler - INFO - Added job "Email reminder for 5247c8bb-a800-4c82-aac9-48c4dbc57ba3" to job store "default"
+2025-10-10 17:28:15,676 - scheduler_manager - INFO - Scheduled reminder 5247c8bb-a800-4c82-aac9-48c4dbc57ba3 for 2025-10-11 17:39:00 (Job ID: reminder_5247c8bb-a800-4c82-aac9-48c4dbc57ba3)
+2025-10-10 17:28:15,680 - apscheduler.scheduler - INFO - Added job "Email reminder for 8546aad3-163a-4b8b-902a-a6d70000c7c2" to job store "default"
+2025-10-10 17:28:15,693 - scheduler_manager - INFO - Scheduled reminder 8546aad3-163a-4b8b-902a-a6d70000c7c2 for 2025-10-11 17:41:00 (Job ID: reminder_8546aad3-163a-4b8b-902a-a6d70000c7c2)
+2025-10-10 17:28:15,701 - apscheduler.scheduler - INFO - Added job "Email reminder for 991eb5a1-3e45-407c-92f4-1c02f4fca252" to job store "default"
+2025-10-10 17:28:15,721 - scheduler_manager - INFO - Scheduled reminder 991eb5a1-3e45-407c-92f4-1c02f4fca252 for 2025-10-11 17:43:00 (Job ID: reminder_991eb5a1-3e45-407c-92f4-1c02f4fca252)
+2025-10-10 17:28:15,723 - apscheduler.scheduler - INFO - Added job "Email reminder for a086b30b-08be-42d2-9291-fb07109468be" to job store "default"
+2025-10-10 17:28:15,726 - scheduler_manager - INFO - Scheduled reminder a086b30b-08be-42d2-9291-fb07109468be for 2025-10-11 17:45:00 (Job ID: reminder_a086b30b-08be-42d2-9291-fb07109468be)
+2025-10-10 17:28:15,734 - apscheduler.scheduler - INFO - Added job "Email reminder for bb32af0a-3e1a-411d-8a83-7f2aa73d194e" to job store "default"
+2025-10-10 17:28:15,736 - scheduler_manager - INFO - Scheduled reminder bb32af0a-3e1a-411d-8a83-7f2aa73d194e for 2025-10-10 17:30:00 (Job ID: reminder_bb32af0a-3e1a-411d-8a83-7f2aa73d194e)
+2025-10-10 17:28:15,750 - apscheduler.scheduler - INFO - Added job "Email reminder for 6f680bfb-9d7a-4e00-9d8e-f3bed01085d7" to job store "default"
+2025-10-10 17:28:15,751 - scheduler_manager - INFO - Scheduled reminder 6f680bfb-9d7a-4e00-9d8e-f3bed01085d7 for 2025-10-10 17:32:00 (Job ID: reminder_6f680bfb-9d7a-4e00-9d8e-f3bed01085d7)
+2025-10-10 17:28:15,752 - scheduler_manager - INFO - Rescheduled 8 active reminders
+2025-10-10 17:28:47,910 - apscheduler.scheduler - INFO - Removed job reminder_a086b30b-08be-42d2-9291-fb07109468be
+2025-10-10 17:28:47,912 - scheduler_manager - INFO - Cancelled reminder a086b30b-08be-42d2-9291-fb07109468be
+2025-10-10 17:28:47,914 - apscheduler.scheduler - INFO - Added job "Email reminder for a086b30b-08be-42d2-9291-fb07109468be" to job store "default"
+2025-10-10 17:28:47,917 - scheduler_manager - INFO - Scheduled reminder a086b30b-08be-42d2-9291-fb07109468be for 2025-10-11 17:30:00 (Job ID: reminder_a086b30b-08be-42d2-9291-fb07109468be)
+2025-10-10 17:28:47,920 - __main__ - INFO - Rescheduled reminder a086b30b-08be-42d2-9291-fb07109468be for 2025-10-11 17:30:00
+2025-10-10 17:30:00,003 - apscheduler.scheduler - INFO - Removed job reminder_bb32af0a-3e1a-411d-8a83-7f2aa73d194e
+2025-10-10 17:30:00,004 - apscheduler.executors.default - INFO - Running job "Email reminder for bb32af0a-3e1a-411d-8a83-7f2aa73d194e (trigger: date[2025-10-10 17:30:00 IST], next run at: 2025-10-10 17:30:00 IST)" (scheduled at 2025-10-10 17:30:00+05:30)
+2025-10-10 17:30:00,008 - scheduler_manager - INFO - Executing scheduled reminder: bb32af0a-3e1a-411d-8a83-7f2aa73d194e
+2025-10-10 17:30:00,012 - scheduler_manager - INFO - Loaded email config from admin management: smsdfinance@gmail.com
+2025-10-10 17:30:00,040 - scheduler_manager - INFO - Attempting to send email to smsdfinance@gmail.com from smsdfinance@gmail.com
+2025-10-10 17:30:00,041 - scheduler_manager - INFO - Attempting to send email to smsdfinance@gmail.com from smsdfinance@gmail.com
+2025-10-10 17:30:02,900 - scheduler_manager - INFO - Email sent successfully to smsdfinance@gmail.com
+2025-10-10 17:30:02,902 - scheduler_manager - INFO - Updated email statistics for smsdfinance@gmail.com
+2025-10-10 17:30:02,924 - scheduler_manager - INFO - Reminder bb32af0a-3e1a-411d-8a83-7f2aa73d194e sent successfully to smsdfinance@gmail.com
+2025-10-10 17:30:02,926 - apscheduler.executors.default - INFO - Job "Email reminder for bb32af0a-3e1a-411d-8a83-7f2aa73d194e (trigger: date[2025-10-10 17:30:00 IST], next run at: 2025-10-10 17:30:00 IST)" executed successfully
+2025-10-10 17:30:02,927 - scheduler_manager - INFO - Job reminder_bb32af0a-3e1a-411d-8a83-7f2aa73d194e executed successfully at 2025-10-10 17:30:02.927117
+2025-10-10 17:32:00,003 - apscheduler.scheduler - INFO - Removed job reminder_6f680bfb-9d7a-4e00-9d8e-f3bed01085d7
+2025-10-10 17:32:00,003 - apscheduler.executors.default - INFO - Running job "Email reminder for 6f680bfb-9d7a-4e00-9d8e-f3bed01085d7 (trigger: date[2025-10-10 17:32:00 IST], next run at: 2025-10-10 17:32:00 IST)" (scheduled at 2025-10-10 17:32:00+05:30)
+2025-10-10 17:32:00,006 - scheduler_manager - INFO - Executing scheduled reminder: 6f680bfb-9d7a-4e00-9d8e-f3bed01085d7
+2025-10-10 17:32:00,007 - scheduler_manager - INFO - Loaded email config from admin management: smsdfinance@gmail.com
+2025-10-10 17:32:00,022 - scheduler_manager - INFO - Attempting to send email to smsdfinance@gmail.com from smsdfinance@gmail.com
+2025-10-10 17:32:00,022 - scheduler_manager - INFO - Attempting to send email to smsdfinance@gmail.com from smsdfinance@gmail.com
+2025-10-10 17:32:03,346 - scheduler_manager - INFO - Email sent successfully to smsdfinance@gmail.com
+2025-10-10 17:32:03,348 - scheduler_manager - INFO - Updated email statistics for smsdfinance@gmail.com
+2025-10-10 17:32:03,367 - scheduler_manager - INFO - Reminder 6f680bfb-9d7a-4e00-9d8e-f3bed01085d7 sent successfully to smsdfinance@gmail.com
+2025-10-10 17:32:03,369 - apscheduler.executors.default - INFO - Job "Email reminder for 6f680bfb-9d7a-4e00-9d8e-f3bed01085d7 (trigger: date[2025-10-10 17:32:00 IST], next run at: 2025-10-10 17:32:00 IST)" executed successfully
+2025-10-10 17:32:03,369 - scheduler_manager - INFO - Job reminder_6f680bfb-9d7a-4e00-9d8e-f3bed01085d7 executed successfully at 2025-10-10 17:32:03.369782
+2025-10-10 17:46:39,023 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-10 17:46:39,028 - scheduler_manager - INFO - EmailScheduler initialized and started
+2025-10-10 17:46:42,834 - scheduler_manager - INFO - Loaded email config from admin management: smsdfinance@gmail.com
+2025-10-10 17:46:42,834 - scheduler_manager - INFO - Attempting to send email to libhope4christ@gmail.com from smsdfinance@gmail.com
+2025-10-10 17:46:46,097 - scheduler_manager - INFO - Email sent successfully to libhope4christ@gmail.com via smtp.gmail.com:587
+2025-10-10 17:46:46,193 - scheduler_manager - INFO - Updated email statistics for smsdfinance@gmail.com
+2025-10-10 17:46:46,310 - apscheduler.scheduler - INFO - Added job "Email reminder for d2ddd737-be67-412a-b852-e9dfaed03dc7" to job store "default"
+2025-10-10 17:46:46,310 - scheduler_manager - INFO - Scheduled reminder d2ddd737-be67-412a-b852-e9dfaed03dc7 for 2025-10-10 17:49:00 (Job ID: reminder_d2ddd737-be67-412a-b852-e9dfaed03dc7)
+2025-10-10 17:47:41,362 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-10 17:47:41,364 - scheduler_manager - INFO - EmailScheduler initialized and started
+2025-10-10 17:47:41,365 - scheduler_manager - INFO - Rescheduling all active reminders...
+2025-10-10 17:47:41,928 - apscheduler.scheduler - INFO - Added job "Email reminder for ff04e455-a028-429a-bb52-01936aa6178a" to job store "default"
+2025-10-10 17:47:41,929 - scheduler_manager - INFO - Scheduled reminder ff04e455-a028-429a-bb52-01936aa6178a for 2025-10-11 17:35:00 (Job ID: reminder_ff04e455-a028-429a-bb52-01936aa6178a)
+2025-10-10 17:47:41,930 - apscheduler.scheduler - INFO - Added job "Email reminder for 6022b079-2729-424f-82a5-cf4df85c418d" to job store "default"
+2025-10-10 17:47:41,931 - scheduler_manager - INFO - Scheduled reminder 6022b079-2729-424f-82a5-cf4df85c418d for 2025-10-11 17:37:00 (Job ID: reminder_6022b079-2729-424f-82a5-cf4df85c418d)
+2025-10-10 17:47:41,932 - apscheduler.scheduler - INFO - Added job "Email reminder for 5247c8bb-a800-4c82-aac9-48c4dbc57ba3" to job store "default"
+2025-10-10 17:47:41,933 - scheduler_manager - INFO - Scheduled reminder 5247c8bb-a800-4c82-aac9-48c4dbc57ba3 for 2025-10-11 17:39:00 (Job ID: reminder_5247c8bb-a800-4c82-aac9-48c4dbc57ba3)
+2025-10-10 17:47:41,934 - apscheduler.scheduler - INFO - Added job "Email reminder for 8546aad3-163a-4b8b-902a-a6d70000c7c2" to job store "default"
+2025-10-10 17:47:41,935 - scheduler_manager - INFO - Scheduled reminder 8546aad3-163a-4b8b-902a-a6d70000c7c2 for 2025-10-11 17:41:00 (Job ID: reminder_8546aad3-163a-4b8b-902a-a6d70000c7c2)
+2025-10-10 17:47:41,937 - apscheduler.scheduler - INFO - Added job "Email reminder for 991eb5a1-3e45-407c-92f4-1c02f4fca252" to job store "default"
+2025-10-10 17:47:41,937 - scheduler_manager - INFO - Scheduled reminder 991eb5a1-3e45-407c-92f4-1c02f4fca252 for 2025-10-11 17:43:00 (Job ID: reminder_991eb5a1-3e45-407c-92f4-1c02f4fca252)
+2025-10-10 17:47:41,942 - apscheduler.scheduler - INFO - Added job "Email reminder for a086b30b-08be-42d2-9291-fb07109468be" to job store "default"
+2025-10-10 17:47:41,943 - scheduler_manager - INFO - Scheduled reminder a086b30b-08be-42d2-9291-fb07109468be for 2025-10-11 17:30:00 (Job ID: reminder_a086b30b-08be-42d2-9291-fb07109468be)
+2025-10-10 17:47:41,957 - apscheduler.scheduler - INFO - Added job "Email reminder for d2ddd737-be67-412a-b852-e9dfaed03dc7" to job store "default"
+2025-10-10 17:47:41,958 - scheduler_manager - INFO - Scheduled reminder d2ddd737-be67-412a-b852-e9dfaed03dc7 for 2025-10-10 17:49:00 (Job ID: reminder_d2ddd737-be67-412a-b852-e9dfaed03dc7)
+2025-10-10 17:47:41,959 - scheduler_manager - INFO - Rescheduled 7 active reminders
+2025-10-10 17:52:19,750 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-10 17:52:19,751 - scheduler_manager - INFO - EmailScheduler initialized and started
+2025-10-10 17:52:37,921 - scheduler_manager - INFO - Rescheduling all active reminders...
+2025-10-10 17:52:38,266 - apscheduler.scheduler - INFO - Added job "Email reminder for ff04e455-a028-429a-bb52-01936aa6178a" to job store "default"
+2025-10-10 17:52:38,266 - scheduler_manager - INFO - Scheduled reminder ff04e455-a028-429a-bb52-01936aa6178a for 2025-10-11 17:35:00 (Job ID: reminder_ff04e455-a028-429a-bb52-01936aa6178a)
+2025-10-10 17:52:38,268 - apscheduler.scheduler - INFO - Added job "Email reminder for 6022b079-2729-424f-82a5-cf4df85c418d" to job store "default"
+2025-10-10 17:52:38,268 - scheduler_manager - INFO - Scheduled reminder 6022b079-2729-424f-82a5-cf4df85c418d for 2025-10-11 17:37:00 (Job ID: reminder_6022b079-2729-424f-82a5-cf4df85c418d)
+2025-10-10 17:52:38,269 - apscheduler.scheduler - INFO - Added job "Email reminder for 5247c8bb-a800-4c82-aac9-48c4dbc57ba3" to job store "default"
+2025-10-10 17:52:38,270 - scheduler_manager - INFO - Scheduled reminder 5247c8bb-a800-4c82-aac9-48c4dbc57ba3 for 2025-10-11 17:39:00 (Job ID: reminder_5247c8bb-a800-4c82-aac9-48c4dbc57ba3)
+2025-10-10 17:52:38,271 - apscheduler.scheduler - INFO - Added job "Email reminder for 8546aad3-163a-4b8b-902a-a6d70000c7c2" to job store "default"
+2025-10-10 17:52:38,272 - scheduler_manager - INFO - Scheduled reminder 8546aad3-163a-4b8b-902a-a6d70000c7c2 for 2025-10-11 17:41:00 (Job ID: reminder_8546aad3-163a-4b8b-902a-a6d70000c7c2)
+2025-10-10 17:52:38,274 - apscheduler.scheduler - INFO - Added job "Email reminder for 991eb5a1-3e45-407c-92f4-1c02f4fca252" to job store "default"
+2025-10-10 17:52:38,278 - scheduler_manager - INFO - Scheduled reminder 991eb5a1-3e45-407c-92f4-1c02f4fca252 for 2025-10-11 17:43:00 (Job ID: reminder_991eb5a1-3e45-407c-92f4-1c02f4fca252)
+2025-10-10 17:52:38,280 - apscheduler.scheduler - INFO - Added job "Email reminder for a086b30b-08be-42d2-9291-fb07109468be" to job store "default"
+2025-10-10 17:52:38,280 - scheduler_manager - INFO - Scheduled reminder a086b30b-08be-42d2-9291-fb07109468be for 2025-10-11 17:30:00 (Job ID: reminder_a086b30b-08be-42d2-9291-fb07109468be)
+2025-10-10 17:52:38,291 - scheduler_manager - INFO - Rescheduled 6 active reminders
+2025-10-10 17:54:34,941 - apscheduler.scheduler - INFO - Removed job reminder_a086b30b-08be-42d2-9291-fb07109468be
+2025-10-10 17:54:34,941 - scheduler_manager - INFO - Cancelled reminder a086b30b-08be-42d2-9291-fb07109468be
+2025-10-10 17:54:34,942 - apscheduler.scheduler - INFO - Added job "Email reminder for a086b30b-08be-42d2-9291-fb07109468be" to job store "default"
+2025-10-10 17:54:34,943 - scheduler_manager - INFO - Scheduled reminder a086b30b-08be-42d2-9291-fb07109468be for 2025-10-11 18:00:00 (Job ID: reminder_a086b30b-08be-42d2-9291-fb07109468be)
+2025-10-10 17:54:34,943 - __main__ - INFO - Rescheduled reminder a086b30b-08be-42d2-9291-fb07109468be for 2025-10-11 18:00:00
+2025-10-10 17:54:58,867 - apscheduler.scheduler - INFO - Removed job reminder_a086b30b-08be-42d2-9291-fb07109468be
+2025-10-10 17:54:58,868 - scheduler_manager - INFO - Cancelled reminder a086b30b-08be-42d2-9291-fb07109468be
+2025-10-10 17:54:58,869 - apscheduler.scheduler - INFO - Added job "Email reminder for a086b30b-08be-42d2-9291-fb07109468be" to job store "default"
+2025-10-10 17:54:58,870 - scheduler_manager - INFO - Scheduled reminder a086b30b-08be-42d2-9291-fb07109468be for 2025-10-11 18:00:00 (Job ID: reminder_a086b30b-08be-42d2-9291-fb07109468be)
+2025-10-10 17:54:58,870 - __main__ - INFO - Rescheduled reminder a086b30b-08be-42d2-9291-fb07109468be for 2025-10-11 18:00:00
+2025-10-11 09:35:17,423 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-11 09:35:17,429 - scheduler_manager - INFO - EmailScheduler initialized and started
+2025-10-11 09:35:20,937 - apscheduler.scheduler - INFO - Added job "Email reminder for d25febd7-08af-4acb-bd30-3b4d32e13b38" to job store "default"
+2025-10-11 09:35:20,938 - scheduler_manager - INFO - Scheduled reminder d25febd7-08af-4acb-bd30-3b4d32e13b38 for 2025-10-11 09:37:00 (Job ID: reminder_d25febd7-08af-4acb-bd30-3b4d32e13b38)
+2025-10-11 09:38:17,154 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-11 09:38:17,157 - scheduler_manager - INFO - EmailScheduler initialized and started
+2025-10-11 09:38:18,090 - apscheduler.scheduler - INFO - Added job "Email reminder for 836a0d77-b23f-4773-950f-af0d60ef45cd" to job store "default"
+2025-10-11 09:38:18,090 - scheduler_manager - INFO - Scheduled reminder 836a0d77-b23f-4773-950f-af0d60ef45cd for 2025-10-11 09:43:00 (Job ID: reminder_836a0d77-b23f-4773-950f-af0d60ef45cd)
+2025-10-11 09:39:41,237 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-11 09:39:41,256 - scheduler_manager - INFO - EmailScheduler initialized and started
+2025-10-11 09:40:51,020 - scheduler_manager - INFO - Rescheduling all active reminders...
+2025-10-11 09:40:51,884 - apscheduler.scheduler - INFO - Added job "Email reminder for ff04e455-a028-429a-bb52-01936aa6178a" to job store "default"
+2025-10-11 09:40:51,885 - scheduler_manager - INFO - Scheduled reminder ff04e455-a028-429a-bb52-01936aa6178a for 2025-10-11 17:35:00 (Job ID: reminder_ff04e455-a028-429a-bb52-01936aa6178a)
+2025-10-11 09:40:51,887 - apscheduler.scheduler - INFO - Added job "Email reminder for 6022b079-2729-424f-82a5-cf4df85c418d" to job store "default"
+2025-10-11 09:40:51,888 - scheduler_manager - INFO - Scheduled reminder 6022b079-2729-424f-82a5-cf4df85c418d for 2025-10-11 17:37:00 (Job ID: reminder_6022b079-2729-424f-82a5-cf4df85c418d)
+2025-10-11 09:40:51,891 - apscheduler.scheduler - INFO - Added job "Email reminder for 5247c8bb-a800-4c82-aac9-48c4dbc57ba3" to job store "default"
+2025-10-11 09:40:51,892 - scheduler_manager - INFO - Scheduled reminder 5247c8bb-a800-4c82-aac9-48c4dbc57ba3 for 2025-10-11 17:39:00 (Job ID: reminder_5247c8bb-a800-4c82-aac9-48c4dbc57ba3)
+2025-10-11 09:40:51,903 - apscheduler.scheduler - INFO - Added job "Email reminder for 8546aad3-163a-4b8b-902a-a6d70000c7c2" to job store "default"
+2025-10-11 09:40:51,904 - scheduler_manager - INFO - Scheduled reminder 8546aad3-163a-4b8b-902a-a6d70000c7c2 for 2025-10-11 17:41:00 (Job ID: reminder_8546aad3-163a-4b8b-902a-a6d70000c7c2)
+2025-10-11 09:40:51,907 - apscheduler.scheduler - INFO - Added job "Email reminder for 991eb5a1-3e45-407c-92f4-1c02f4fca252" to job store "default"
+2025-10-11 09:40:51,908 - scheduler_manager - INFO - Scheduled reminder 991eb5a1-3e45-407c-92f4-1c02f4fca252 for 2025-10-11 17:43:00 (Job ID: reminder_991eb5a1-3e45-407c-92f4-1c02f4fca252)
+2025-10-11 09:40:51,919 - apscheduler.scheduler - INFO - Added job "Email reminder for a086b30b-08be-42d2-9291-fb07109468be" to job store "default"
+2025-10-11 09:40:51,920 - scheduler_manager - INFO - Scheduled reminder a086b30b-08be-42d2-9291-fb07109468be for 2025-10-11 18:00:00 (Job ID: reminder_a086b30b-08be-42d2-9291-fb07109468be)
+2025-10-11 09:40:51,941 - apscheduler.scheduler - INFO - Added job "Email reminder for 836a0d77-b23f-4773-950f-af0d60ef45cd" to job store "default"
+2025-10-11 09:40:51,949 - scheduler_manager - INFO - Scheduled reminder 836a0d77-b23f-4773-950f-af0d60ef45cd for 2025-10-11 09:43:00 (Job ID: reminder_836a0d77-b23f-4773-950f-af0d60ef45cd)
+2025-10-11 09:40:51,952 - scheduler_manager - INFO - Rescheduled 7 active reminders
+2025-10-11 09:41:49,130 - apscheduler.scheduler - INFO - Added job "Email reminder for 8aede281-406e-4b47-9618-2455491178a1" to job store "default"
+2025-10-11 09:41:49,132 - scheduler_manager - INFO - Scheduled reminder 8aede281-406e-4b47-9618-2455491178a1 for 2025-10-11 09:45:00 (Job ID: reminder_8aede281-406e-4b47-9618-2455491178a1)
+2025-10-11 09:41:49,136 - __main__ - INFO - Scheduled reminder 8aede281-406e-4b47-9618-2455491178a1 for 2025-10-11 09:45:00
+2025-10-11 09:43:00,018 - apscheduler.executors.default - INFO - Running job "Email reminder for 836a0d77-b23f-4773-950f-af0d60ef45cd (trigger: date[2025-10-11 09:43:00 IST], next run at: 2025-10-11 09:43:00 IST)" (scheduled at 2025-10-11 09:43:00+05:30)
+2025-10-11 09:43:00,019 - apscheduler.scheduler - INFO - Removed job reminder_836a0d77-b23f-4773-950f-af0d60ef45cd
+2025-10-11 09:43:00,023 - scheduler_manager - INFO - Executing scheduled reminder: 836a0d77-b23f-4773-950f-af0d60ef45cd
+2025-10-11 09:43:00,026 - scheduler_manager - INFO - Loaded email config from admin management: smsdfinance@gmail.com
+2025-10-11 09:43:00,051 - scheduler_manager - INFO - Attempting to send email to smsdfinance@gmail.com from smsdfinance@gmail.com
+2025-10-11 09:43:00,052 - scheduler_manager - INFO - Attempting to send email to smsdfinance@gmail.com from smsdfinance@gmail.com
+2025-10-11 09:43:03,978 - scheduler_manager - INFO - Email sent successfully to smsdfinance@gmail.com via smtp.gmail.com:587
+2025-10-11 09:43:04,197 - scheduler_manager - INFO - Updated email statistics for smsdfinance@gmail.com
+2025-10-11 09:43:04,319 - scheduler_manager - INFO - Reminder 836a0d77-b23f-4773-950f-af0d60ef45cd sent successfully to smsdfinance@gmail.com
+2025-10-11 09:43:04,338 - apscheduler.executors.default - INFO - Job "Email reminder for 836a0d77-b23f-4773-950f-af0d60ef45cd (trigger: date[2025-10-11 09:43:00 IST], next run at: 2025-10-11 09:43:00 IST)" executed successfully
+2025-10-11 09:43:04,340 - scheduler_manager - INFO - Job reminder_836a0d77-b23f-4773-950f-af0d60ef45cd executed successfully at 2025-10-11 09:43:04.340716
+2025-10-11 09:45:00,003 - apscheduler.scheduler - INFO - Removed job reminder_8aede281-406e-4b47-9618-2455491178a1
+2025-10-11 09:45:00,003 - apscheduler.executors.default - INFO - Running job "Email reminder for 8aede281-406e-4b47-9618-2455491178a1 (trigger: date[2025-10-11 09:45:00 IST], next run at: 2025-10-11 09:45:00 IST)" (scheduled at 2025-10-11 09:45:00+05:30)
+2025-10-11 09:45:00,016 - scheduler_manager - INFO - Executing scheduled reminder: 8aede281-406e-4b47-9618-2455491178a1
+2025-10-11 09:45:00,018 - scheduler_manager - INFO - Loaded email config from admin management: smsdfinance@gmail.com
+2025-10-11 09:45:00,049 - scheduler_manager - INFO - Attempting to send email to libhope4christ@gmail.com from smsdfinance@gmail.com
+2025-10-11 09:45:00,050 - scheduler_manager - INFO - Attempting to send email to libhope4christ@gmail.com from smsdfinance@gmail.com
+2025-10-11 09:45:04,318 - scheduler_manager - INFO - Email sent successfully to libhope4christ@gmail.com via smtp.gmail.com:587
+2025-10-11 09:45:04,321 - scheduler_manager - INFO - Updated email statistics for smsdfinance@gmail.com
+2025-10-11 09:45:04,347 - scheduler_manager - INFO - Reminder 8aede281-406e-4b47-9618-2455491178a1 sent successfully to libhope4christ@gmail.com
+2025-10-11 09:45:04,347 - apscheduler.executors.default - INFO - Job "Email reminder for 8aede281-406e-4b47-9618-2455491178a1 (trigger: date[2025-10-11 09:45:00 IST], next run at: 2025-10-11 09:45:00 IST)" executed successfully
+2025-10-11 09:45:04,348 - scheduler_manager - INFO - Job reminder_8aede281-406e-4b47-9618-2455491178a1 executed successfully at 2025-10-11 09:45:04.348535
+2025-10-11 11:19:54,035 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-11 11:19:54,398 - scheduler_manager - INFO - EmailScheduler initialized and started
+2025-10-11 11:19:55,769 - scheduler_manager - INFO - Executing scheduled reminder: ff04e455-a028-429a-bb52-01936aa6178a
+2025-10-11 11:20:00,645 - scheduler_manager - INFO - Loaded email config from admin management: smsdfinance@gmail.com
+2025-10-11 11:20:00,669 - scheduler_manager - INFO - Attempting to send email to libhope4christ@gmail.com from smsdfinance@gmail.com
+2025-10-11 11:20:00,670 - scheduler_manager - INFO - Attempting to send email to libhope4christ@gmail.com from smsdfinance@gmail.com
+2025-10-11 11:20:05,013 - scheduler_manager - INFO - Email sent successfully to libhope4christ@gmail.com via smtp.gmail.com:587
+2025-10-11 11:20:05,120 - scheduler_manager - INFO - Updated email statistics for smsdfinance@gmail.com
+2025-10-11 11:20:05,215 - scheduler_manager - INFO - Reminder ff04e455-a028-429a-bb52-01936aa6178a sent successfully to libhope4christ@gmail.com
+2025-10-11 11:20:05,341 - scheduler_manager - INFO - Rescheduling all active reminders...
+2025-10-11 11:20:05,434 - apscheduler.scheduler - INFO - Added job "Email reminder for ff04e455-a028-429a-bb52-01936aa6178a" to job store "default"
+2025-10-11 11:20:05,435 - scheduler_manager - INFO - Scheduled reminder ff04e455-a028-429a-bb52-01936aa6178a for 2025-10-11 17:35:00 (Job ID: reminder_ff04e455-a028-429a-bb52-01936aa6178a)
+2025-10-11 11:20:05,443 - apscheduler.scheduler - INFO - Added job "Email reminder for 6022b079-2729-424f-82a5-cf4df85c418d" to job store "default"
+2025-10-11 11:20:05,446 - scheduler_manager - INFO - Scheduled reminder 6022b079-2729-424f-82a5-cf4df85c418d for 2025-10-11 17:37:00 (Job ID: reminder_6022b079-2729-424f-82a5-cf4df85c418d)
+2025-10-11 11:20:05,466 - apscheduler.scheduler - INFO - Added job "Email reminder for 5247c8bb-a800-4c82-aac9-48c4dbc57ba3" to job store "default"
+2025-10-11 11:20:05,495 - scheduler_manager - INFO - Scheduled reminder 5247c8bb-a800-4c82-aac9-48c4dbc57ba3 for 2025-10-11 17:39:00 (Job ID: reminder_5247c8bb-a800-4c82-aac9-48c4dbc57ba3)
+2025-10-11 11:20:05,507 - apscheduler.scheduler - INFO - Added job "Email reminder for 8546aad3-163a-4b8b-902a-a6d70000c7c2" to job store "default"
+2025-10-11 11:20:05,511 - scheduler_manager - INFO - Scheduled reminder 8546aad3-163a-4b8b-902a-a6d70000c7c2 for 2025-10-11 17:41:00 (Job ID: reminder_8546aad3-163a-4b8b-902a-a6d70000c7c2)
+2025-10-11 11:20:05,519 - apscheduler.scheduler - INFO - Added job "Email reminder for 991eb5a1-3e45-407c-92f4-1c02f4fca252" to job store "default"
+2025-10-11 11:20:05,528 - scheduler_manager - INFO - Scheduled reminder 991eb5a1-3e45-407c-92f4-1c02f4fca252 for 2025-10-11 17:43:00 (Job ID: reminder_991eb5a1-3e45-407c-92f4-1c02f4fca252)
+2025-10-11 11:20:05,531 - apscheduler.scheduler - INFO - Added job "Email reminder for a086b30b-08be-42d2-9291-fb07109468be" to job store "default"
+2025-10-11 11:20:05,533 - scheduler_manager - INFO - Scheduled reminder a086b30b-08be-42d2-9291-fb07109468be for 2025-10-11 18:00:00 (Job ID: reminder_a086b30b-08be-42d2-9291-fb07109468be)
+2025-10-11 11:20:05,549 - scheduler_manager - INFO - Rescheduled 6 active reminders
+2025-10-11 11:20:05,660 - apscheduler.scheduler - INFO - Added job "Email reminder for TEST_112005" to job store "default"
+2025-10-11 11:20:05,660 - scheduler_manager - INFO - Scheduled reminder TEST_112005 for 2025-10-11 11:21:00 (Job ID: reminder_TEST_112005)

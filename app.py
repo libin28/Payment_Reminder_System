@@ -96,7 +96,7 @@ def save_reminders(df):
         return False
 
 def send_email(recipient, subject, body, sender_email=None, app_password=None):
-    """Send email reminder using configured email accounts"""
+    """Enhanced email sending with multiple SMTP configurations for better external email support"""
     try:
         # If no sender specified, use default from admin management
         if not sender_email or not app_password:
@@ -115,23 +115,55 @@ def send_email(recipient, subject, body, sender_email=None, app_password=None):
         msg['From'] = sender_email
         msg['To'] = recipient
 
-        context = ssl.create_default_context()
-        with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
-            server.login(sender_email, app_password)
-            server.sendmail(sender_email, recipient, msg.as_string())
+        # Try multiple SMTP configurations for better compatibility
+        smtp_configs = [
+            {'host': 'smtp.gmail.com', 'port': 587, 'use_tls': True},  # TLS - better for external emails
+            {'host': 'smtp.gmail.com', 'port': 465, 'use_ssl': True}   # SSL - fallback
+        ]
 
-        # Update email usage statistics
-        try:
-            from auth import load_email_accounts, save_email_accounts
-            accounts = load_email_accounts()
-            if sender_email in accounts:
-                accounts[sender_email]["total_sent"] = accounts[sender_email].get("total_sent", 0) + 1
-                accounts[sender_email]["last_used"] = datetime.now().isoformat()
-                save_email_accounts(accounts)
-        except:
-            pass  # Don't fail email sending if stats update fails
+        last_error = None
+        for config in smtp_configs:
+            try:
+                if config.get('use_ssl'):
+                    # SSL connection
+                    context = ssl.create_default_context()
+                    server = smtplib.SMTP_SSL(config['host'], config['port'], context=context)
+                else:
+                    # TLS connection
+                    server = smtplib.SMTP(config['host'], config['port'])
+                    if config.get('use_tls'):
+                        server.starttls()
 
-        return True
+                # Login and send
+                server.login(sender_email, app_password)
+                server.sendmail(sender_email, recipient, msg.as_string())
+                server.quit()
+
+                # Update email usage statistics
+                try:
+                    from auth import load_email_accounts, save_email_accounts
+                    accounts = load_email_accounts()
+                    if sender_email in accounts:
+                        accounts[sender_email]["total_sent"] = accounts[sender_email].get("total_sent", 0) + 1
+                        accounts[sender_email]["last_used"] = datetime.now().isoformat()
+                        save_email_accounts(accounts)
+                except:
+                    pass  # Don't fail email sending if stats update fails
+
+                return True
+
+            except Exception as e:
+                last_error = e
+                try:
+                    server.quit()
+                except:
+                    pass
+                continue
+
+        # If all configurations failed, show the last error
+        st.error(f"Error sending email to {recipient}: {last_error}")
+        return False
+
     except Exception as e:
         st.error(f"Error sending email: {str(e)}")
         return False
