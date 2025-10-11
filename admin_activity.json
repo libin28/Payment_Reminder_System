@@ -950,5 +950,15 @@
     },
     "ip_address": "localhost",
     "session_id": "unknown"
+  },
+  {
+    "timestamp": "2025-10-11T12:31:44.888193",
+    "admin_email": "santhigirifmc@gmail.com",
+    "action": "login_success",
+    "details": {
+      "role": "primary_admin"
+    },
+    "ip_address": "localhost",
+    "session_id": "unknown"
   }
 ]
